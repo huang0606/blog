@@ -1,0 +1,70 @@
+html {
+    font-family: Lato, "PingFang SC", "Microsoft YaHei", sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+#header {
+    border-top: 3px solid black;
+    height: 329px;
+    background: #F4F4F4;
+    text-align: center;
+}
+
+#header .header-inner {
+    width: 700px;
+    margin: 0 auto;
+    padding: 100px 0 70px 0;
+}
+
+#header #site-title {
+    padding: 0 40px;
+    line-height: 36px;
+    background: #222;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+#header #site-slogan {
+    margin: 10px 0 20px 0;
+    line-height: 26px;
+    color: #999;
+    font-size: 13px;
+}
+
+#header ul#nav {
+    display: inline-block;
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0 14px 0;
+    color: #555;
+}
+
+#header ul#nav li {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+#header ul#nav li a {
+    display: block;
+    line-height: 26px;
+    color: inherit;
+    text-decoration: none;
+    font-size: 13px;
+    transition-duration: 0.3s;
+}
+
+#header ul#nav li a:hover {
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+#sidebar {}
+
+#main-content {}
+
+#footer {}

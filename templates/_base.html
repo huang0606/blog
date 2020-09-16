@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Blog</title>
+    <link rel="stylesheet" href="/static/styles/style.css" />
+</head>
+
+<body>
+
+    {% include "_header.html" %}
+
+    <div id="sidebar">
+    </div>
+
+    <div id="main-content">
+        {% block body %}{% endblock %}
+    </div>
+
+    <div id="footer">
+    </div>
+
+</body>
+
+</html>
